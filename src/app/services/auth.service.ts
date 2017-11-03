@@ -23,6 +23,26 @@ export class AuthService {
     }
 
     loginWithGoogle() {
+      
+      //setCustomParameters host domain (hd)
+      
+      /**
+      
+        let provider = new firebase.auth.GoogleAuthProvider();
+        provider.addScope('email');
+        provider.setCustomParameters({
+          'hd':'domain.edu.mx'
+        });
+        this.afAuth.auth.signInWithPopup(provider)
+        .then((data)=>{
+          this.router.navigate(['/dashboard']);
+        })
+        .catch((error)=>{
+          console.log(error)
+        });
+        
+      **/
+      
       this.afAuth.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider())
       .then((data)=>{
         this.router.navigate(['/dashboard']);
