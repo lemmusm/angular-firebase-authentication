@@ -6,12 +6,12 @@
 export const environment = {
   production: false,
   firebase: {
-      // Add your Firebase configuration
-    apiKey: '<your-key>',
-    authDomain: '<your-project-authdomain>',
-    databaseURL: '<your-database-URL>',
-    projectId: '<your-project-id>',
-    storageBucket: '<your-storage-bucket>',
-    messagingSenderId: '<your-messaging-sender-id>'
+    // Add your Firebase configuration
+    apiKey: 'AIzaSyBPPanDXv-5b-GTCsMmpMHmWqUry1R_axc',
+    authDomain: 'fir-authentication-d181b.firebaseapp.com',
+    databaseURL: 'https://fir-authentication-d181b.firebaseio.com',
+    projectId: 'fir-authentication-d181b',
+    storageBucket: '',
+    messagingSenderId: '600675165623'
   }
 };
